@@ -1,0 +1,121 @@
+/* || fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+/* || reset css */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* || colors */
+
+:root{
+    --primary-color:#00adef;
+    --grey-color:#9A9A9A ;
+    --black-color:#282828;
+    --white-color:#ffffff;
+    --lynx-white-color: #F7F7F7;
+    --lynx-gray-color:#C5C5C5;
+}
+
+/* || general styles */
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    color: var(--black-color);
+    background-color: var(--lynx-white-color);
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+.btn{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.primary-btn{
+    color: var(--lynx-white-color);
+    background-color: var(--primary-color);
+    font-weight: 500;    
+}
+
+.secondary-btn{
+    background-color: var(--lynx-white-color);
+    color: var(--black-color);
+    border: 2px solid var(--lynx-gray-color);
+    margin-left: 1rem;
+    font-weight: 500;    
+}
+
+/* || header */
+
+header{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    margin-bottom: 2rem;
+    padding: 2.5rem 0;
+}
+
+.header-logo{
+    color: var(--primary-color);
+    margin: 0 5rem;
+}
+
+.header-nav li{
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.header-nav a{
+    color: var(--black-color);
+    font-weight: 500;    
+}
+
+.header-nav a:hover{
+    color: var(--primary-color);    
+}
+
+/* || hero */
+
+.hero-content{
+    width: 20rem;
+}
+
+.hero-text{
+    font-size: 4rem;
+}
+
+.hero-text-focus{
+    color: var(--primary-color);
+}
+
+.hero-image{
+    width: 25rem;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-sub-text{
+    margin: 2rem 0;
+    color: var(--grey-color);
+}
