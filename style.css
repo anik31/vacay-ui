@@ -1,6 +1,6 @@
 /* || fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 /* || reset css */
 
@@ -31,7 +31,7 @@ html{
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
     color: var(--black-color);
-    background-color: var(--lynx-white-color);
+    background-color: var(--white-color);
 }
 
 button{
@@ -47,13 +47,13 @@ button{
 }
 
 .primary-btn{
-    color: var(--lynx-white-color);
+    color: var(--white-color);
     background-color: var(--primary-color);
     font-weight: 500;    
 }
 
 .secondary-btn{
-    background-color: var(--lynx-white-color);
+    background-color: var(--white-color);
     color: var(--black-color);
     border: 2px solid var(--lynx-gray-color);
     margin-left: 1rem;
@@ -164,9 +164,10 @@ header{
     flex-wrap: wrap;
     padding: 1rem;
     margin: 2rem 0;
-    border: 2px solid var(--grey-color);
+    border: 2px solid var(--lynx-gray-color);
     align-items: center;
     justify-content: center;
     border-radius:0.3rem;
     width: 100%;
+    gap: 1rem;
 }

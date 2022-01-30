@@ -1,0 +1,55 @@
+/* || fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* || icons */
+
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+/* || component files */
+
+@import url(avatar.css);
+@import url(badge.css);
+@import url(button.css);
+
+/* || colors */
+
+:root{
+    --primary-color:#00adef;
+    --grey-color:#9A9A9A ;
+    --black-color:#282828;
+    --white-color:#ffffff;
+    --lynx-white-color: #F7F7F7;
+    --lynx-gray-color:#C5C5C5;
+    --green-color:#00FF00;
+    --maroon-color:#800000;
+}
+
+/* || reset css */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+/* || general styles */
+
+html {
+	scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+
+img{
+    object-fit: cover;
+}
