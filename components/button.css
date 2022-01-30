@@ -1,4 +1,80 @@
+.btn{
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+}
+
+/* || primary */
+
+.btn-primary{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.btn-primary-outline{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.btn-primary-ghost{
+    color: var(--primary-color);
+    background-color: var(--primary-color-50);
+}
+
+.btn-primary-link{
+    color: var(--primary-color);
+}
+
 .btn-icon{
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: var(--black-color);
+}
+
+.btn-primary-icon{
+    color: var(--primary-color);
+}
+
+.btn-primary-icon-text{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.btn-primary-icon-text .fa-shopping-cart{
+    color: var(--white-color);
+    margin-right: 0.5rem;
+}
+
+.btn-float-action{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    padding: 0.8rem 1rem;
+}
+
+/* || secondary */
+
+.btn-secondary{
+    color: var(--white-color);
+    background-color: var(--black-color-400);
+}
+
+.btn-secondary-outline{
+    color: var(--black-color);
+    border: 2px solid var(--black-color-400);
+}
+
+.btn-secondary-ghost{
+    color: var(--black-color);
+    background-color: var(--lynx-white-color);
+}
+
+.btn-secondary-icon-text{
+    color: var(--black-color);
+    background-color: var(--white-color);
+    border: 2px solid var(--black-color-400);
+}
+
+.btn-secondary-icon-text .fa-heart{
+    color: var(--black-color);
+    margin-right: 0.5rem;
 }

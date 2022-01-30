@@ -8,6 +8,7 @@
 
 /* || component files */
 
+@import url(alert.css);
 @import url(avatar.css);
 @import url(badge.css);
 @import url(button.css);
@@ -16,12 +17,30 @@
 
 :root{
     --primary-color:#00adef;
+    --primary-color-50:#EFF6FF;
+    --primary-color-100:#DBEAFE;
+    --primary-color-200:#BFDBFE;
     --grey-color:#9A9A9A ;
+    --black-color-300:#D1D5DB;
+    --black-color-400:#9CA3AF;
+    --black-color-500:#687280;
     --black-color:#282828;
     --white-color:#ffffff;
     --lynx-white-color: #F7F7F7;
     --lynx-gray-color:#C5C5C5;
-    --green-color:#00FF00;
+    --green-color-50:#ECFDF5;
+    --green-color-100:#D1FAE5;
+    --green-color-200:#A7F3D0;
+    --green-color-300:#6EE7B7;
+    --green-color-400:#34D399;
+    --green-color-600:#059669;
+    --green-color-700:#047857;
+    --green-color-800:#065F46;
+    --green-color-900:#064E3B;
+    --yellow-color-200:#FDE68A;
+    --yellow-color-900:#78350F;
+    --red-color-200:#FECACA;
+    --red-color-900:#7F1D1D;
     --maroon-color:#800000;
 }
 
