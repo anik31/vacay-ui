@@ -53,7 +53,7 @@
 }
 
 .status-online{
-    background-color: var(--green-color);
+    background-color: var(--green-color-600);
 }
 .status-offline{
     background-color: var(--maroon-color);

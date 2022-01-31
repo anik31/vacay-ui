@@ -1,0 +1,30 @@
+.alert{
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+}
+
+.alert-success{
+    color: var(--green-color-900);
+    background-color: var(--green-color-200);
+}
+
+.alert-warning{
+    color: var(--yellow-color-900);
+    background-color: var(--yellow-color-200);
+}
+
+.alert-danger{
+    color: var(--red-color-900);
+    background-color: var(--red-color-200);
+}
+
+.alert-primary{
+    color: var(--primary-color);
+    background-color: var(--primary-color-100);
+}
+
+.alert-close-btn .fa-times{
+    margin-left: 1rem;
+    cursor: pointer;
+}
