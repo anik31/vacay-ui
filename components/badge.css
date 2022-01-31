@@ -17,8 +17,8 @@
 }
 
 .badge-number{
-    top: -0.8rem;
-    right: -0.8rem;
+    top: -1rem;
+    right: -1rem;
     background-color: var(--primary-color);
     color: var(--white-color) ;
     display: flex;

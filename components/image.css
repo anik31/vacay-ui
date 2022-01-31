@@ -1,0 +1,17 @@
+.img-wrapper{
+    max-width: 45vw;
+}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+
+.img-round-sizing{
+    width: 20rem;
+    height: 20rem;
+}
+
+.img-round{
+    border-radius: 50%;
+}
