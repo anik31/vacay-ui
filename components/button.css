@@ -27,7 +27,7 @@
 
 .btn-icon{
     font-size: 1.2rem;
-    color: var(--black-color);
+    color: var(--text-color);
 }
 
 .btn-primary-icon{
@@ -59,22 +59,22 @@
 }
 
 .btn-secondary-outline{
-    color: var(--black-color);
+    color: var(--text-color);
     border: 2px solid var(--black-color-400);
 }
 
 .btn-secondary-ghost{
-    color: var(--black-color);
+    color: var(--text-color);
     background-color: var(--lynx-white-color);
 }
 
 .btn-secondary-icon-text{
-    color: var(--black-color);
+    color: var(--text-color);
     background-color: var(--white-color);
     border: 2px solid var(--black-color-400);
 }
 
 .btn-secondary-icon-text .fa-heart{
-    color: var(--black-color);
+    color: var(--text-color);
     margin-right: 0.5rem;
 }
