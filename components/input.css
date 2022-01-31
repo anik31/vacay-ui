@@ -1,0 +1,40 @@
+.input{
+    display: flex;
+}
+
+.input-text{
+    flex-direction: column;
+}
+
+.input-checkbox-radio{
+    align-items: center;
+}
+
+.input label{
+    font-weight: 500;
+    margin: 0.3rem;
+}
+
+input{
+    border: 1px solid var(--lynx-gray-color);
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+}
+
+input[type="text"]:focus{
+    border-color: var(--primary-color);
+}
+
+input[type="checkbox"],input[type="radio"]{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.input-error input{
+    border-color: var(--red-color-400);
+}
+
+.input-checkbox-radio label{
+    margin: 0 1rem;
+}
