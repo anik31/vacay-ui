@@ -1,0 +1,179 @@
+.card{
+    display: flex;
+    border-radius: var(--border-radius);
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2)
+}
+
+.card .fa-heart{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.card-badge{
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 0.2rem 0.5rem;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    font-weight: 700;
+}
+
+.card-vertical{
+    width: 18.75rem;
+    height: 32.19rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-vertical img{
+    height: 23.44rem;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.card-vertical .btn{
+    width: 100%;
+    height: 2.5rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+} 
+
+.card-title{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.card-price{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.fa-heart{
+    cursor: pointer;
+}
+
+.card-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(234, 234, 236,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    z-index: 2;
+}
+
+/* || horizontal */
+
+.card-horizontal img{
+    height: inherit;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+.card-horizontal-lg{
+    width: 60rem;
+    height: 17.25rem;
+}
+
+.card-horizontal-lg img{
+    width: 19.25rem;
+    height: inherit;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+.card-horizontal .btn{
+    width: 19.56rem;
+    height: 2.5rem;
+}
+
+.card-info, .card-btn-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-btn-wrapper{
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-btn-wrapper{
+    padding: 1.5rem;
+}
+
+.card-info{
+    gap: 0.5rem;
+    margin: 1rem 2rem;
+}
+
+.card-horizontal-lg .card-info{
+    flex-grow: 1;    
+}
+
+
+/* || horizontal md */
+
+.card-horizontal-md{
+    width: 43.75rem;
+    height: 24.375rem;
+}
+
+.card-horizontal-md img{
+    width: 19.25rem;
+    height: inherit;
+}
+
+.card-content-vertical{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.card-discount{
+    color: var(--black-color-400);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* || text card */
+
+.text-card{
+    flex-direction: column;
+    width: 25rem;
+}
+
+.text-card .card-head {
+    border-bottom: 1px solid gainsboro;
+    padding: 1rem;
+}
+
+.text-card .card-foot {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    border-top: 1px solid gainsboro;
+    padding: 1rem;
+}
+  
+.text-card .card-content{
+    padding: 1rem;
+}
+
+.card .fa-times{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}

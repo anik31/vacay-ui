@@ -14,8 +14,9 @@
 @import url(button.css);
 @import url(image.css);
 @import url(input.css);
+@import url(card.css);
 
-/* || colors */
+/* || variables */
 
 :root{
     --primary-color:#00adef;
@@ -45,6 +46,8 @@
     --red-color-400:#EF4444;
     --red-color-900:#7F1D1D;
     --maroon-color:#800000;
+
+    --border-radius: 0.5rem;
 }
 
 /* || reset css */
@@ -57,6 +60,7 @@
 
 a{
     text-decoration: none;
+    display: inline-block;
 }
 
 button{
