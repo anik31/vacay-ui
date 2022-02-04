@@ -1,6 +1,6 @@
 <h2 align="center" style="color: #00adef;"><b>vacay</b></h2>
 <h3 align="center"><i>Stylish components made easy</i></h3>
-<p align="center"><a>Explore docs »</a></p>
+<p align="center"><a href="https://vacay-ui.netlify.app/docs.html">Explore docs »</a></p>
 <br>
 
 ### Quick start
