@@ -22,23 +22,35 @@
     <div class="docs-content">
     <aside class="sidebar">
         <div class="sidenav">
-        <h2>Components</h2>
-        <ul>
-            <li><a href="#Alert">Alert</a></li>
-            <li><a href="#Avatar">Avatar</a></li>
-            <li><a href="#Badge">Badge</a></li>
-            <li><a href="#Button">Button</a></li>
-            <li><a href="#Card">Card</a></li>
-            <li><a href="#Image">Image</a></li>
-            <li><a href="#Input">Input</a></li>
-        </ul>
-    </div>
+            <h2>Getting Started</h2>
+            <ul>
+                <li><a href="#Usage">Usage</a></li>
+            </ul>
+            <h2>Components</h2>
+            <ul>
+                <li><a href="#Alert">Alert</a></li>
+                <li><a href="#Avatar">Avatar</a></li>
+                <li><a href="#Badge">Badge</a></li>
+                <li><a href="#Button">Button</a></li>
+                <li><a href="#Card">Card</a></li>
+                <li><a href="#Image">Image</a></li>
+                <li><a href="#Input">Input</a></li>
+            </ul>
+        </div>
     </aside>
 
     <main class="docs">
+        <section id="Usage">
+            <h2>Usage</h2>
+            <p class="brief-docs">Copy-paste the stylesheet link into your head tag before all other stylesheets to load our CSS.</p>
+            <iframe src="https://www.thiscodeworks.com/embed/61fb9db36ab14d0015c32d24" style="width: 100%; height: 100px;" frameborder="0"></iframe>
+        </section>        
         <section id="Alert">
             <h2>Alert</h2>
-            <div class="component-wrapper">
+            <p class="brief-docs">Provide contextual feedback messages for typical user actions.</p>
+            <h3>Examples</h3>
+            <p class="example-desc">Alerts are available in four classes - <span class="focus-primary">alert-success</span>, <span class="focus-primary">alert-warning</span>, <span class="focus-primary">alert-danger</span> & <span class="focus-primary">alert-primary</span>. For dismissal use the <span class="focus-primary">alert-close-btn</span> class.</p>
+            <div class="component-wrapper flex-col">
                 <output class="alert alert-success">
                     <i class="far fa-check-circle"></i>
                     Your order is placed
@@ -56,22 +68,28 @@
                     <i class="fas fa-times"></i>
                 </output>
             </div>
-
+            <iframe src="https://www.thiscodeworks.com/embed/61fb88766ab14d0015c32d16" style="width: 100%; height: 295px;" frameborder="0"></iframe>
         </section>
 
         <section id="Avatar">
             <h2>Avatar</h2>
+            <p class="brief-docs">Show display picture of a user.</p>
+            <h3>Examples</h3>
+            <p class="example-desc">Avatars are available for 4 different sizes, having class name <span class="focus-primary">avatar-lg</span>, <span class="focus-primary">avatar-md</span>, <span class="focus-primary">avatar-sm</span> & <span class="focus-primary">avatar-xs</span>.</p>
             <div class="component-wrapper">
                 <img class="avatar avatar-lg" src="/assets/avatar.jpg" alt="avatar">
                 <img class="avatar avatar-md" src="/assets/avatar.jpg" alt="avatar">
                 <img class="avatar avatar-sm" src="/assets/avatar.jpg" alt="avatar">
                 <img class="avatar avatar-xs" src="/assets/avatar.jpg" alt="avatar">
             </div>
-
+            <iframe src="https://www.thiscodeworks.com/embed/61fb9e0f6ab14d0015c32d25" style="width: 100%; height: 139px;" frameborder="0"></iframe>
         </section>
 
         <section id="Badge">
             <h2>Badge</h2>
+            <p class="brief-docs">Component to display count or label.</p>
+            <h3>Examples</h3>
+            <p class="example-desc">Two types of status badges are available - <span class="focus-primary">status-online</span> & <span class="focus-primary">status-offline</span>. For displaying notification count <span class="focus-primary">badge-number</span> can be used.</p>
             <div class="component-wrapper">
                 <div class="badge-wrapper">
                     <img class="avatar avatar-lg" src="/assets/avatar.jpg" alt="avatar">
@@ -94,11 +112,14 @@
                     <span class="badge badge-number">5</span>
                 </div>
             </div>
-
+            <iframe src="https://www.thiscodeworks.com/embed/61fb9e716ab14d0015c32d26" style="width: 100%; height: 347px;" frameborder="0"></iframe>
         </section>
 
         <section id="Button">
             <h2>Button</h2>
+            <p class="brief-docs">Different styles of buttons of CTA & secondary colors.</p>
+            <h3>Examples of CTA buttons</h3>
+            <p class="example-desc">Primary buttons are used to attract user. Use the below classes for the type of button you want.</p>
             <div class="component-wrapper">
                 <a href="#" class="btn btn-primary">Primary</a>
                 <a href="#" class="btn btn-primary-outline">Primary</a>
@@ -107,18 +128,25 @@
                 <a href="#"><i class="btn-icon btn-primary-icon fas fa-shopping-cart"></i></a>
                 <a href="#" class="btn btn-primary-icon-text"><i class="btn-icon fas fa-shopping-cart"></i>Add to cart</a>
                 <a href="#" class="btn-float-action"><i class="fas fa-plus"></i></a>
-                
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/61fb9ea46ab14d0015c32d27" style="width: 100%; height: 178px;" frameborder="0"></iframe>
+            <h3>Examples of secondary buttons</h3>
+            <p class="example-desc">Secondary buttons are used where user's attention is not required much. Use the below classes for the type of button you want.</p>
+            <div class="component-wrapper">
                 <a href="#" class="btn btn-secondary">Secondary</a>
                 <a href="#" class="btn btn-secondary-outline">Secondary</a>
                 <a href="#" class="btn btn-secondary-ghost">Secondary</a>
                 <a href="#"><i class="btn-icon fas fa-shopping-cart"></i></a>
                 <a href="#" class="btn btn-secondary-icon-text"><i class="btn-icon fas fa-heart"></i>Add to wishlist</a>
             </div>
-
+            <iframe src="https://www.thiscodeworks.com/embed/61fb9ed86ab14d0015c32d28" style="width: 100%; height: 152px;" frameborder="0"></iframe>
         </section>
 
         <section id="Card">
             <h2>Card</h2>
+            <p class="brief-docs">Cards are used to display content inside a container. Different styles of card variants are available.</p>
+            <h3>Example of vertical card</h3>
+            <p class="example-desc">Vertical cards are used to display product data on websites.</p>
             <div class="component-wrapper">
                 <div class="card card-vertical">
                     <i class="far fa-heart"></i>
@@ -127,6 +155,12 @@
                     <span class="card-price">Rs. 20,000</span>
                     <a href="#" class="btn btn-primary">Add to cart</a>
                 </div>
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/61fb9f066ab14d0015c32d2a" style="width: 100%; height: 178px;" frameborder="0"></iframe>
+            
+            <h3>Example of vertical card with badge</h3>
+            <p class="example-desc">Cards with badges are used to attract user.</p>
+            <div class="component-wrapper">
                 <div class="card card-vertical">
                     <i class="far fa-heart"></i>
                     <span class="card-badge">NEW</span>
@@ -135,6 +169,12 @@
                     <span class="card-price">Rs. 20,000</span>
                     <a href="#" class="btn btn-primary">Add to cart</a>
                 </div>
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/61fb9f3f6ab14d0015c32d2c" style="width: 100%; height: 191px;" frameborder="0"></iframe>
+            
+            <h3>Example of vertical card with text overlay</h3>
+            <p class="example-desc">Text overlay is used to show text on top of cards.</p>
+            <div class="component-wrapper">
                 <div class="card card-vertical">
                     <span class="card-overlay">OUT OF STOCK</span>
                     <i class="far fa-heart"></i>
@@ -143,6 +183,12 @@
                     <span class="card-price">Rs. 20,000</span>
                     <a href="#" class="btn btn-primary">Add to cart</a>
                 </div>
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/61fb9f7e6ab14d0015c32d2d" style="width: 100%; height: 191px;" frameborder="0"></iframe>
+            
+            <h3>Example of horizontal card of medium size</h3>
+            <p class="example-desc">Horizontal cards are also used in websites to display product data in a horizontal manner.</p>
+            <div class="component-wrapper">
                 <div class="card card-horizontal card-horizontal-md">
                     <img src="/assets/camera1.jpg" class="img-responsive" alt="camera">
                     <div class="card-content-vertical">
@@ -157,6 +203,12 @@
                         </div>    
                     </div>
                 </div>
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/61fb9fae6ab14d0015c32d2e" style="width: 100%; height: 269px;" frameborder="0"></iframe>
+            
+            <h3>Example of horizontal card of large size</h3>
+            <p class="example-desc">This is a variation of horizontal card and can be used according to requirement.</p>
+            <div class="component-wrapper">
                 <div class="card card-horizontal card-horizontal-lg">
                     <img src="/assets/camera1.jpg" class="img-responsive" alt="camera">
                     <div class="card-info">
@@ -169,6 +221,12 @@
                         <a href="#" class="btn btn-secondary-outline">Save to wishlist</a>
                     </div>
                 </div>
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/61fb9fdc6ab14d0015c32d2f" style="width: 100%; height: 243px;" frameborder="0"></iframe>
+            
+            <h3>Example of text card</h3>
+            <p class="example-desc">Text card i used to display textual information to the user. It comes with a dismiss button.</p>
+            <div class="component-wrapper">
                 <div class="card text-card">
                     <div class="card-head">
                       <h3>Card title</h3>
@@ -187,22 +245,33 @@
                     </div>
                 </div>
             </div>
-
+            <iframe src="https://www.thiscodeworks.com/embed/61fba0056ab14d0015c32d30" style="width: 100%; height: 308px;" frameborder="0"></iframe>
         </section>
 
         <section id="Image">
             <h2>Image</h2>
+            <p class="brief-docs">Images classes are available to make your images responsive or round shaped.</p>
+            <h3>Example of responsive image</h3>
+            <p class="example-desc">Give a fixed width to <span class="focus-primary">img-wrapper</span> for the size of image you want. Use <span class="focus-primary">img-responsive</span> to make the image responsive.</p>
             <div class="component-wrapper">
                 <div class="img-wrapper">
                     <img class="img-responsive" src="/assets/avatar.jpg" alt="dog with specs">
                 </div>
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/61fbc1636ab14d0015c32d47" style="width: 100%; height: 126px;" frameborder="0"></iframe>
+            <h3>Example of round image</h3>
+            <p class="example-desc">Give width & height to <span class="focus-primary">img-round-sizing</span> & add <span class="focus-primary">img-round</span> to get a round image.</p>
+            <div class="component-wrapper">
                 <img class="img-round img-round-sizing" src="/assets/avatar.jpg" alt="dog with specs">
             </div>
-
+            <iframe src="https://www.thiscodeworks.com/embed/61fba0336ab14d0015c32d31" style="width: 100%; height: 139px;" frameborder="0"></iframe>
         </section>
 
         <section id="Input">
             <h2>Input</h2>
+            <p class="brief-docs">Different types of input fields are available.</p>
+            <h3>Example of inputs</h3>
+            <p class="example-desc">Inputs of type text, radio & checkbox are available. Text input has a class <span class="focus-primary">input-error</span> to depict error in inputs.</p>
             <div class="component-wrapper">
                 <div class="input input-text">
                     <label for="">Label</label>
@@ -221,7 +290,7 @@
                     <label for="">Radio</label>
                 </div>
             </div>
-
+            <iframe src="https://www.thiscodeworks.com/embed/61fba0606ab14d0015c32d32" style="width: 100%; height: 295px;" frameborder="0"></iframe>
         </section>
 
     </main>
