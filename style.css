@@ -60,6 +60,12 @@ button{
     font-weight: 500;    
 }
 
+/* || utilities */
+
+.flex-col{
+    flex-direction: column;
+}
+
 /* || header */
 
 header{
@@ -92,7 +98,7 @@ header{
 /* || hero */
 
 .hero-content{
-    width: 20rem;
+    width: 25rem;
 }
 
 .hero-text{
@@ -116,7 +122,7 @@ header{
 }
 
 .hero-sub-text{
-    margin: 2rem 0;
+    margin: 1.5rem 0;
     color: var(--grey-color);
 }
 
@@ -124,22 +130,22 @@ header{
 
 .docs-content{
     display: flex;
-    padding: 0 3rem;
-    gap: 5rem;
+    padding: 0 2rem;
+    gap: 2rem;
 }
 
 .sidebar{
-    /* flex-basis: 50rem; */
     position: relative;
 }
 
 .sidenav{
     position: sticky;
-    top: 0;
+    top: 1rem;
 }
 
 .docs{
     flex-grow: 1;
+    padding: 0 2rem;
 }
 
 .sidenav ul{
@@ -163,11 +169,29 @@ header{
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
-    margin: 2rem 0;
+    margin: 1.5rem 0;
     border: 2px solid var(--lynx-gray-color);
     align-items: center;
     justify-content: center;
     border-radius:0.3rem;
     width: 100%;
     gap: 1rem;
+}
+
+iframe{
+    margin-bottom: 3rem;
+}
+
+.brief-docs{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.example-desc{
+    margin: 0.5rem 0;
+}
+
+.focus-primary{
+    color: var(--primary-color);
 }
