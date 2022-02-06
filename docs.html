@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="header-docs">
         <h1 class="header-logo">vacay</h1>
         <nav class="header-nav">
             <ul>
@@ -33,8 +33,10 @@
                 <li><a href="#Badge">Badge</a></li>
                 <li><a href="#Button">Button</a></li>
                 <li><a href="#Card">Card</a></li>
+                <li><a href="#Form">Form</a></li>
                 <li><a href="#Image">Image</a></li>
                 <li><a href="#Input">Input</a></li>
+                <li><a href="#Navbar">Navbar</a></li>
             </ul>
         </div>
     </aside>
@@ -138,8 +140,17 @@
                 <a href="#" class="btn btn-secondary-ghost">Secondary</a>
                 <a href="#"><i class="btn-icon fas fa-shopping-cart"></i></a>
                 <a href="#" class="btn btn-secondary-icon-text"><i class="btn-icon fas fa-heart"></i>Add to wishlist</a>
+                <a href="#" class="btn btn-secondary-icon-text-no-border"><i class="btn-icon fas fa-heart"></i>Add to wishlist</a>
+                <a href="#" class="btn btn-secondary-icon-text-no-border">
+                    <div class="badge-wrapper">
+                        <i class="btn-icon fas fa-shopping-cart"></i>
+                        <span class="badge badge-number">5</span>
+                    </div>
+                    Cart
+                </a>
+                <a href="#" class="btn btn-secondary-icon-text-no-border">Create New Account <i class="fas fa-chevron-right"></i></a>
             </div>
-            <iframe src="https://www.thiscodeworks.com/embed/61fb9ed86ab14d0015c32d28" style="width: 100%; height: 152px;" frameborder="0"></iframe>
+            <iframe src="https://www.thiscodeworks.com/embed/61ffcf0d4dd44f0015f3cbf8" style="width: 100%; height: 269px;" frameborder="0"></iframe>
         </section>
 
         <section id="Card">
@@ -248,6 +259,36 @@
             <iframe src="https://www.thiscodeworks.com/embed/61fba0056ab14d0015c32d30" style="width: 100%; height: 308px;" frameborder="0"></iframe>
         </section>
 
+        <section id="Form">
+            <h2>Form</h2>
+            <p class="brief-docs">Forms are used to collect user information.</p>
+            <h3>Example of Login form</h3>
+            <p class="example-desc">Various fields are listed that are required in a login form.</p>
+            <div class="component-wrapper">
+                <form action="post" class="form box-shadow">
+                    <h3>Login</h3>
+                    <div class="input input-text">
+                        <label for="">Email address</label>
+                        <input type="text" placeholder="example@gmail.com">
+                    </div>
+                    <div class="input input-text">
+                        <label for="">Password</label>
+                        <input type="text" placeholder="************">
+                    </div>
+                    <div class="input-link-grp">
+                        <div class="input input-checkbox-radio">
+                            <input type="checkbox">
+                            <label for="">Remember me</label>
+                        </div>
+                        <a href="#" class="btn btn-primary-link">Forgot your Password?</a>    
+                    </div>
+                    <a href="#" class="btn btn-primary">Login</a>
+                    <a href="#" class="btn btn-secondary-icon-text-no-border">Create New Account <i class="fas fa-chevron-right"></i></a>
+                </form>
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/61ffb7d5bcdcda00150059a2" style="width: 100%; height: 347px;" frameborder="0"></iframe>
+        </section>
+
         <section id="Image">
             <h2>Image</h2>
             <p class="brief-docs">Images classes are available to make your images responsive or round shaped.</p>
@@ -291,6 +332,43 @@
                 </div>
             </div>
             <iframe src="https://www.thiscodeworks.com/embed/61fba0606ab14d0015c32d32" style="width: 100%; height: 295px;" frameborder="0"></iframe>
+        </section>
+
+        <section id="Navbar">
+            <h2>Navbar</h2>
+            <p class="brief-docs">Navbar is used to navigate across a web application.</p>
+            <h3>Example of Navbar (Desktop)</h3>
+            <p class="example-desc">The navbar consists of the brand logo, search box & various navigation links which can be customised according to the requirement.</p>
+            <div class="component-wrapper">
+                <header class="header box-shadow">
+                    <h1 class="logo">vacay</h1>
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <nav class="navigation">
+                        <ul>
+                            <li><a href="#" class="btn btn-primary">Login</a></li>
+                            <li>                
+                                <div class="badge-wrapper">
+                                    <a href="#"><i class="btn-icon far fa-heart"></i></a>
+                                    <span class="badge badge-number">5</span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-secondary-icon-text-no-border">
+                                    <div class="badge-wrapper">
+                                        <i class="btn-icon fas fa-shopping-cart"></i>
+                                        <span class="badge badge-number">5</span>
+                                    </div>
+                                    Cart
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/61ffa1aebcdcda001500599f" style="width: 100%; height: 438px;" frameborder="0"></iframe>
         </section>
 
     </main>

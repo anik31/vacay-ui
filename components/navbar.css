@@ -1,0 +1,29 @@
+.navigation li{
+    display: inline-block;
+    margin: 0 0.8rem;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.header .logo{
+    color: var(--primary-color);
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.search-box{
+    border: 2px solid var(--lynx-gray-color);
+    border-radius: var(--border-radius);
+    padding: 0 0.5rem;
+}
+
+.search-box input{
+    border: none;
+}
