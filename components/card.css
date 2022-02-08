@@ -148,6 +148,24 @@
     font-size: 1.5rem;
 }
 
+.product-count{
+    margin-left: 2rem;
+}
+
+.product-count .counter{
+    border: 1px solid var(--black-color-400);
+    padding: 0.3rem 1.2rem;
+    border-radius: var(--border-radius);
+    font-weight: 700;
+}
+
+.product-count a{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    padding: 0.3rem 0.5rem;
+}
+
 /* || text card */
 
 .text-card{
