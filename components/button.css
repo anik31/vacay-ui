@@ -71,6 +71,10 @@
     background-color: var(--lynx-white-color);
 }
 
+.btn-secondary-link{
+    color: var(--text-color);
+}
+
 .btn-secondary-icon-text{
     color: var(--text-color);
     background-color: var(--white-color);

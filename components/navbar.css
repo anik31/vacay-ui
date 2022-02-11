@@ -1,6 +1,6 @@
 .navigation li{
     display: inline-block;
-    margin: 0 0.8rem;
+    margin: 0 0.3rem;
 }
 
 .header{
@@ -9,7 +9,7 @@
     width: 100%;
     align-content: center;
     justify-content: space-around;
-    padding: 1rem 0;
+    padding: 0.7rem 1rem;
 }
 
 .header .logo{
@@ -26,4 +26,9 @@
 
 .search-box input{
     border: none;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
 }
