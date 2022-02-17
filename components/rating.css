@@ -1,0 +1,28 @@
+.rating .fa-star{
+    color: var(--lynx-gray-color);
+}
+
+.rating .star-fill{
+    color: var(--star-color);
+}
+
+.rating-pill{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: var(--border-radius-1);
+    padding: 0.3rem 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.rating-pill-text{    
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.rating-pill .fa-star{
+    font-size: 0.9rem;
+    color: var(--star-color);
+}

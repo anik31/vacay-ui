@@ -1,0 +1,25 @@
+.modal{
+    position: relative;
+    background-color: var(--primary-color-50);
+    border-radius: var(--border-radius);
+    width: 30rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-grp{
+    display: flex;
+    width: fit-content;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.modal .fa-times{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
