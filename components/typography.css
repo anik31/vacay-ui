@@ -1,0 +1,36 @@
+h1, .text-xlg{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+h2, .text-lg{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+h3, .text-md{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+h4, .text-sm{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h5,.text-xsm{
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+.text-gray{
+    color: var(--text-gray);
+}
+
+.text-primary{
+    color: var(--primary-color);
+}
+
+.text-center{
+    text-align: center;
+}
