@@ -2,9 +2,7 @@
     color: var(--lynx-gray-color);
 }
 
-.rating .fa-star:nth-child(1),
-.rating .fa-star:nth-child(2),
-.rating .fa-star:nth-child(3){
+.rating .star-fill{
     color: var(--star-color);
 }
 
