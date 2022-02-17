@@ -19,11 +19,16 @@
 @import url(navbar.css);
 @import url(typography.css);
 @import url(list.css);
+@import url(modal.css);
+@import url(rating.css);
 
 /* || variables */
 
 :root{
     --primary-color:#00adef;
+    --primary-color-light:#1AC7FF;
+    --primary-color-lighter:#E6FFFF;
+    --primary-color-dark:#007ABC;
     --primary-color-50:#EFF6FF;
     --primary-color-100:#DBEAFE;
     --primary-color-200:#BFDBFE;
@@ -46,12 +51,14 @@
     --green-color-900:#064E3B;
     --yellow-color-200:#FDE68A;
     --yellow-color-900:#78350F;
+    --star-color:#ffb900;
     --red-color-200:#FECACA;
     --red-color-400:#EF4444;
     --red-color-900:#7F1D1D;
     --maroon-color:#800000;
     --text-gray:#3E5060;
     --border-radius: 0.5rem;
+    --border-radius-1: 1rem;
 }
 
 /* || reset css */
