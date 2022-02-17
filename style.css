@@ -154,7 +154,7 @@ button{
 }
 
 .sidenav li{
-    padding: 1rem;
+    padding: 0.8rem;
 }
 
 .sidenav a{
@@ -191,8 +191,4 @@ iframe{
 
 .example-desc{
     margin: 0.5rem 0;
-}
-
-.focus-primary{
-    color: var(--primary-color);
 }

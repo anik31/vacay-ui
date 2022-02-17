@@ -1,0 +1,42 @@
+.list{
+    list-style: none;
+}
+
+.list li{
+    margin: 1rem;
+}
+
+.list-inline li{
+    display: inline-block;
+}
+
+.list-notification{
+    border: 1px solid var(--lynx-gray-color);
+    border-radius: var(--border-radius);
+}
+
+.list-notification>li{
+    border-bottom: 1px solid var(--lynx-gray-color);
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.list-notification>li:last-child{
+    border-bottom: none;
+}
+
+.list-notification>li>ul>li:first-child{
+    font-weight: 700;
+}
+
+.list-notification>li>ul>li:last-child{
+    color: var(--text-gray);
+}
+
+
+.list-notification>li>ul>li{
+    margin: 0.3rem;
+}
