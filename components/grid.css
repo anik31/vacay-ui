@@ -1,0 +1,37 @@
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.grid-2-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+.grid-3-content, .grid-3-btn{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 0.5rem;
+}
+
+.grid-3-content{
+    margin-top: 1rem;
+}
+
+.grid-3-btn{
+    justify-content: center;
+    margin: 0 1rem;
+}
