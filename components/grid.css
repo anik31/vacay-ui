@@ -15,15 +15,12 @@
 .grid-3{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* align-items: center; */
     gap: 1rem;
 }
 
 .grid-3-content, .grid-3-btn{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
     gap: 0.5rem;
 }
 
