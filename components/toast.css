@@ -1,0 +1,10 @@
+.toast{
+    background-color: var(--action-color);
+    padding: 0.8rem 1rem;
+    border-radius: var(--border-radius);
+    color: var(--white-color);
+}
+
+.toast .fa-times{
+    margin-left: 2rem;
+}

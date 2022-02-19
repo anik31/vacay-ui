@@ -21,6 +21,8 @@
 @import url(list.css);
 @import url(modal.css);
 @import url(rating.css);
+@import url(toast.css);
+@import url(grid.css);
 
 /* || variables */
 
@@ -32,6 +34,7 @@
     --primary-color-50:#EFF6FF;
     --primary-color-100:#DBEAFE;
     --primary-color-200:#BFDBFE;
+    --action-color: #0d6efd;
     --grey-color:#9A9A9A ;
     --black-color-300:#D1D5DB;
     --black-color-400:#9CA3AF;
