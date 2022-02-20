@@ -1,4 +1,4 @@
-<h3 align="center">vacay</h3>
+<h3 align="center">vacay ui</h3>
 <h4 align="center"><i>Stylish components made easy</i></h4>
 <p align="center"><a href="https://vacay-ui.netlify.app/docs.html">Explore docs »</a></p>
 
