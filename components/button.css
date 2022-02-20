@@ -14,9 +14,18 @@
     background-color: var(--primary-color);
 }
 
+.btn-primary:hover{
+    background-color: var(--primary-color-dark);
+}
+
 .btn-primary-outline{
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+}
+
+.btn-primary-outline:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
 }
 
 .btn-primary-ghost{
@@ -42,6 +51,10 @@
     background-color: var(--primary-color);
 }
 
+.btn-primary-icon-text:hover{
+    background-color: var(--primary-color-dark);
+}
+
 .btn-primary-icon-text .fa-shopping-cart{
     color: var(--white-color);
     margin-right: 0.5rem;
@@ -54,6 +67,10 @@
     padding: 0.8rem 1rem;
 }
 
+.btn-float-action:hover{
+    background-color: var(--primary-color-dark);
+}
+
 /* || secondary */
 
 .btn-secondary{
@@ -61,9 +78,20 @@
     background-color: var(--black-color-400);
 }
 
+.btn-secondary:hover{
+    background-color: var(--white-color);
+    color: var(--text-color);
+    border: 1px solid var(--black-color-400);
+}
+
 .btn-secondary-outline{
     color: var(--text-color);
     border: 2px solid var(--black-color-400);
+}
+
+.btn-secondary-outline:hover{
+    background-color: var(--grey-color);
+    color: var(--white-color);
 }
 
 .btn-secondary-ghost{
@@ -81,9 +109,18 @@
     border: 2px solid var(--black-color-400);
 }
 
+.btn-secondary-icon-text:hover{
+    background-color: var(--grey-color);
+    color: var(--white-color);
+}
+
 .btn-secondary-icon-text-no-border{
     color: var(--text-color);
     background-color: var(--white-color);
+}
+
+.btn-secondary-icon-text-no-border:hover{
+    color: var(--primary-color);
 }
 
 .btn > .btn-icon{
