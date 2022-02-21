@@ -211,6 +211,12 @@ iframe{
     margin: 0.5rem 0;
 }
 
+.btn-go-up{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
 /* || media queries */
 
 @media only screen and (max-width:1280px){
