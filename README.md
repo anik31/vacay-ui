@@ -3,6 +3,9 @@
 <p align="center"><a href="https://vacay-ui.netlify.app/docs.html">Explore docs »</a></p>
 
 
+## Demo
+![demo](https://user-images.githubusercontent.com/56336326/154965236-d15d888c-cb26-48eb-b7f6-0fcefa7a78cf.png)
+
 ## Quick start
 * Copy-paste the stylesheet link into your head tag before all other stylesheets to load our CSS.
 ```html
