@@ -227,10 +227,19 @@ iframe{
 
 @media only screen and (max-width:480px){
     html{
-        font-size: 50%;
+        font-size: 60%;
     }
 
     .hero-image{
         display: none;
+    }
+
+    .hero{
+        height: 60vh;
+        justify-content: center;
+    }
+
+    .hero-content{
+        text-align: center;
     }
 }
