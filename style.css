@@ -210,3 +210,27 @@ iframe{
 .example-desc{
     margin: 0.5rem 0;
 }
+
+/* || media queries */
+
+@media only screen and (max-width:768px){
+    html{
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width:640px){
+    html{
+        font-size: 70%;
+    }
+}
+
+@media only screen and (max-width:480px){
+    html{
+        font-size: 50%;
+    }
+
+    .hero-image{
+        display: none;
+    }
+}
