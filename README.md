@@ -25,5 +25,5 @@
 Vacay's documentation are publicly hosted on Netlify at https://vacay-ui.netlify.app/. It includes demo examples of different types of components along with HTML code.
 
 ## Socials
-* https://twitter.com/_anik_31
-* https://www.linkedin.com/in/anik31/
+* Twitter - [_anik_31](https://twitter.com/_anik_31)
+* Github - [anik31](https://www.linkedin.com/in/anik31/)
