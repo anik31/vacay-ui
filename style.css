@@ -144,21 +144,17 @@ button{
 
 .docs-content{
     display: flex;
-    padding: 0 2rem;
     gap: 2rem;
     margin-top: 2rem;
 }
 
-.sidebar{
-    position: relative;
-    width: 12rem;
-}
-
 .sidenav{
     position: sticky;
-    top: 1rem;
-    margin-bottom: 2rem;
-    margin-right: 2rem;
+    top: 5rem;
+    overflow-y: scroll;
+    height: 85vh;
+    width: 13rem;
+    text-align: center;
 }
 
 .docs{
@@ -170,19 +166,17 @@ button{
     list-style: none;
 }
 
-.sidenav li:hover{
+.sidenav a:hover{
     background-color: var(--primary-color-light);
     border-radius: 0.5rem;
+    color: var(--primary-color);
 }
 
 .sidenav a{
     color: var(--text-color);
     font-weight: 400;
     padding: 0.8rem 2rem;
-}
-
-.sidenav a:hover{
-    color: var(--primary-color);
+    width: 100%;
 }
 
 .component-wrapper{
@@ -221,10 +215,6 @@ iframe{
 /* || media queries */
 
 @media only screen and (max-width:1280px){
-    html{
-        font-size: 90%;
-    }
-    
     .docs{
         padding: 0;
     }
@@ -241,46 +231,15 @@ iframe{
 }
 
 @media only screen and (max-width:1024px){
-    html{
-        font-size: 90%;
-    }
-    
-    .docs{
-        padding: 0;
-    }
-    
-    .docs-content{
-        padding: 0 1rem;
-        gap: 1rem;
-    }
-    
     .sidenav{
-        margin-right: 1rem;
-    }
-    
-    .sidebar{
         display: none;
-        width: fit-content;
     }
     
 }
 
 @media only screen and (max-width:768px){
     html{
-        font-size: 80%;
-    }
-    
-    .docs{
-        padding: 0;
-    }
-    
-    .docs-content{
-        padding: 0 1rem;
-        gap: 1rem;
-    }
-    
-    .sidenav{
-        margin-right: 0;
+        font-size: 90%;
     }
 }
 
@@ -292,17 +251,9 @@ iframe{
     .docs{
         padding: 0 0.5rem;
     }
-
-    .sidebar{
-        display: none;
-    }
 }
 
 @media only screen and (max-width:480px){
-    html{
-        font-size: 70%;
-    }
-
     .hero-image{
         display: none;
     }
@@ -315,9 +266,4 @@ iframe{
     .hero-content{
         text-align: center;
     }
-    
-    .docs{
-        padding: 0 0.5rem;
-    }
-
 }

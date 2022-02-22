@@ -63,6 +63,11 @@
     --text-gray:#3E5060;
     --border-radius: 0.5rem;
     --border-radius-1: 1rem;
+    --z-index-1:1;
+    --z-index-2:2;
+    --z-index-3:3;
+    --z-index-4:4;
+    --z-index-5:5;
 }
 
 /* || reset css */
@@ -105,25 +110,13 @@ img{
 
 /* || media queries */
 
-@media only screen and (max-width:1024px){
+@media only screen and (max-width:768px){
     html{
         font-size: 90%;
     }
 }
 
-@media only screen and (max-width:768px){
-    html{
-        font-size: 80%;
-    }
-}
-
 @media only screen and (max-width:640px){
-    html{
-        font-size: 70%;
-    }
-}
-
-@media only screen and (max-width:480px){
     html{
         font-size: 70%;
     }
