@@ -94,7 +94,7 @@ button{
 
 .header-nav li{
     display: inline-block;
-    margin-left: 2rem;
+    margin: 0 2rem;
 }
 
 .header-nav a{
@@ -146,6 +146,7 @@ button{
     display: flex;
     padding: 0 2rem;
     gap: 2rem;
+    margin-top: 2rem;
 }
 
 .sidebar{
@@ -257,6 +258,11 @@ iframe{
         margin-right: 1rem;
     }
     
+    .sidebar{
+        display: none;
+        width: fit-content;
+    }
+    
 }
 
 @media only screen and (max-width:768px){
@@ -314,7 +320,4 @@ iframe{
         padding: 0 0.5rem;
     }
 
-    .sidebar{
-        display: none;
-    }
 }
