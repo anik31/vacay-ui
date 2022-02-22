@@ -8,17 +8,29 @@
     flex-wrap: wrap;
     width: 100%;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0.7rem 1rem;
+    position: sticky;
+    top: 0;
+    background-color: var(--white-color);
+    z-index: var(--z-index-3);
+}
+
+.docs .header{
+    position: static;
+    z-index: var(--z-index-1);
 }
 
 .header .logo{
     color: var(--primary-color);
-    font-weight: 900;
+    font-weight: 200;
     font-size: 2rem;
+    margin-left: 1rem;
 }
 
 .search-box{
+    display: flex;
+    align-items: center;
     border: 2px solid var(--lynx-gray-color);
     border-radius: var(--border-radius);
     padding: 0 0.5rem;
@@ -26,9 +38,109 @@
 
 .search-box input{
     border: none;
+    flex-grow: 1;
+}
+
+.search-box .fa-search{
+    padding: 0.5rem;
 }
 
 .navigation{
     display: flex;
     align-items: center;
+}
+
+.header .fa-bars, .hamburger-menu{
+    display: none;
+}
+
+.display-block{
+    display: block;
+}
+
+.hamburger-menu{
+    height: 100vh;
+    width: 40vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: var(--primary-color-50);
+    text-align: center;
+    overflow-y: scroll;
+    z-index: var(--z-index-5);
+}
+
+.hamburger-menu ul{
+    margin: 3rem 0;
+}
+
+.hamburger-menu li{
+    list-style: none;
+    font-size: 1.2rem;
+    border-radius: var(--border-radius);
+}
+
+.hamburger-menu a:hover{
+    background-color: var(--primary-color-100);
+}
+
+.hamburger-menu li a{
+    color: var(--text-color);
+    width: 100%;
+    padding: 0.8rem 2rem;
+}
+
+.hamburger-menu .fa-times{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.hamburger-logo-wrapper{
+    display: flex;
+}
+
+.header > button{
+    background-color: var(--white-color);
+}
+
+.hamburger-logo-wrapper button{
+    background-color: var(--white-color);
+}
+
+.header .fa-bars{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin: 0 0.9rem;
+}
+
+/* || media queries */
+
+@media only screen and (max-width:1024px){
+    .header .fa-bars{
+        display: inline-block;
+    }
+    
+    .header .nav-hide{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:810px){
+    .search-box{
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    .search-box input{
+        flex-grow: 1;
+    }
+}
+
+@media only screen and (max-width:640px){
+    .hamburger-menu{
+        width: 50vw;
+    }
 }
