@@ -60,18 +60,17 @@
 
 .hamburger-menu{
     height: 100vh;
-    width: 40vw;
+    width: 35vw;
     position: fixed;
     left: 0;
-    top: 0;
-    background-color: var(--primary-color-50);
-    text-align: center;
+    top: 4.07rem;
+    background-color: var(--white-color);
     overflow-y: scroll;
     z-index: var(--z-index-5);
 }
 
 .hamburger-menu ul{
-    margin: 3rem 0;
+    margin-bottom: 1rem;
 }
 
 .hamburger-menu li{
@@ -81,21 +80,24 @@
 }
 
 .hamburger-menu a:hover{
-    background-color: var(--primary-color-100);
+    background-color: var(--primary-color-lighter);
+    color: var(--primary-color);
 }
 
 .hamburger-menu li a{
     color: var(--text-color);
     width: 100%;
-    padding: 0.8rem 2rem;
+    padding: 0.8rem 3rem;
 }
 
-.hamburger-menu .fa-times{
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 2rem;
-    color: var(--text-color);
+.hamburger-menu h3{
+    padding: 0.8rem 3rem;
+}
+
+.hamburger-menu li:first-child{
+    background-color: var(--primary-color);
+    border-radius: 0;
+    padding: 1rem;
 }
 
 .hamburger-logo-wrapper{
@@ -139,7 +141,7 @@
     }
 }
 
-@media only screen and (max-width:640px){
+@media only screen and (max-width:480px){
     .hamburger-menu{
         width: 50vw;
     }

@@ -142,7 +142,7 @@ html{
     top: 4.05rem;
     overflow-y: scroll;
     height: 90vh;
-    width: 13rem;
+    width: 15rem;
     text-align: center;
     padding: 2rem 0;
 }
@@ -166,7 +166,7 @@ html{
 .sidenav a{
     color: var(--text-color);
     font-weight: 400;
-    padding: 0.8rem 2rem;
+    padding: 0.8rem;
     width: 100%;
 }
 
