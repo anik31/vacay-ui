@@ -40,39 +40,10 @@ html{
     background-color: var(--white-color);
 }
 
-button{
-    border: none;
-    cursor: pointer;
-}
-
 .button{
-    border-radius: 0.5rem;
     padding: 1rem 2rem;
-    font-size: 1.2rem;
-    display: inline-block;
-}
-
-.primary-btn{
-    color: var(--white-color);
-    background-color: var(--primary-color);
-    font-weight: 500;  
-}
-
-.primary-btn:hover{
-    background-color: var(--primary-color-dark);
-}
-
-.secondary-btn{
-    background-color: var(--white-color);
-    color: var(--text-color);
-    border: 2px solid var(--lynx-gray-color);
-    margin-left: 1rem;
-    font-weight: 500;    
-}
-
-.secondary-btn:hover{
-    background-color: var(--lynx-gray-color);
-    color: var(--white-color);
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 /* || utilities */
@@ -164,21 +135,22 @@ button{
 .docs-content{
     display: flex;
     gap: 2rem;
-    margin-top: 2rem;
 }
 
 .sidenav{
     position: sticky;
-    top: 6rem;
+    top: 4.05rem;
     overflow-y: scroll;
-    height: 85vh;
+    height: 90vh;
     width: 13rem;
     text-align: center;
+    padding: 2rem 0;
 }
 
 .docs{
     flex-grow: 1;
     padding: 0 2rem;
+    margin-top: 2rem;
 }
 
 .sidenav ul{
@@ -229,6 +201,7 @@ iframe{
     position: fixed;
     bottom: 2rem;
     right: 2rem;
+    z-index: 5;
 }
 
 /* || media queries */

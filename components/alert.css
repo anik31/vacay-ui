@@ -24,7 +24,7 @@
     background-color: var(--primary-color-100);
 }
 
-.alert-close-btn .fa-times{
+.alert .fa-times{
     margin-left: 1rem;
     cursor: pointer;
 }
