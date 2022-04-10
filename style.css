@@ -127,7 +127,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 90vh;
+    height: 85vh;
 }
 
 /* || docs */
@@ -167,7 +167,7 @@ html{
     color: var(--text-color);
     font-weight: 400;
     padding: 0.8rem;
-    width: 100%;
+    width: 90%;
 }
 
 .component-wrapper{
