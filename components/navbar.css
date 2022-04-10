@@ -65,7 +65,7 @@
     left: 0;
     top: 4.07rem;
     background-color: var(--white-color);
-    overflow-y: scroll;
+    overflow-y: auto;
     z-index: var(--z-index-5);
 }
 
