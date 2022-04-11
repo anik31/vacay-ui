@@ -153,6 +153,18 @@ html{
     margin-top: 2rem;
 }
 
+.docs section{
+    padding-top: 4rem;
+}
+
+.docs section:first-child{
+    padding-top: 0;
+}
+
+.docs section h3:nth-child(n+2){
+    padding-top: 1rem;
+}
+
 .sidenav ul{
     list-style: none;
 }
@@ -184,7 +196,7 @@ html{
 }
 
 iframe{
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
 }
 
 .brief-docs{
