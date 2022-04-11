@@ -92,6 +92,27 @@ input{
     outline: none;
 }
 
+/* || scrollbar */
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) var(--primary-color-light);
+  }
+  
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: var(--primary-color-light);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    border: 3px solid var(--primary-color-light);
+  }
+
 /* || general styles */
 
 html {

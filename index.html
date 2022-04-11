@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon.ico" />
     <title>Vacay UI</title>
+    <link rel="stylesheet" href="./components/vacay.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header-docs">
-        <h1 class="header-logo">vacay</h1>
+        <a href="/index.html"><img class="header-logo" src="./assets/logo.png" /></a>
         <nav class="header-nav">
             <ul>
                 <li><a href="/index.html">Home</a></li>
@@ -20,9 +22,11 @@
     <main class="hero">
         <div class="hero-content">
             <h2 class="hero-text">Stylish components <span class="hero-text-focus">made easy</span></h2>
-            <p class="hero-sub-text">Use components to quickly design and build websites and apps.</p>
-            <a href="/docs.html" class="button primary-btn">Start now</a>
-            <a href="https://github.com/anik31/vacay-ui/tree/dev" target="_blank" class="button secondary-btn">Github</a>    
+            <p class="hero-sub-text text-gray">Use components to quickly design and build websites and apps.</p>
+            <div class="btn-wrapper">
+                <button><a href="/docs.html" class="button btn btn-primary">Start now</a></button>
+                <button><a href="https://github.com/anik31/vacay-ui/tree/dev" target="_blank" class="button btn btn-primary-outline">Github</a></button>
+            </div>
         </div>
         <div class="hero-image-wrapper">
             <img class="hero-image" src="/assets/hero-image.jpg" alt="design system sample image">
