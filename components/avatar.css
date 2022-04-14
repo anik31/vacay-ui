@@ -5,19 +5,30 @@
 .avatar-lg{
     width: 10rem;
     height: 10rem;
+    font-size: 3rem;
 }
 
 .avatar-md{
     width: 6rem;
     height: 6rem;
+    font-size: 2rem;
 }
 
 .avatar-sm{
     width: 3rem;
     height: 3rem;
+    font-size: 1.3rem;
 }
 
 .avatar-xs{
     width: 2rem;
     height: 2rem;
+    font-size: 0.9rem;
+}
+
+.avatar-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
 }
