@@ -7,7 +7,7 @@
 <p align="center"><a href="https://vacay-ui.netlify.app/docs.html">Explore docs »</a></p>
 
 ## Introduction
-Vacay UI is a CSS library to easily build beautiful UI. It consists of fully customisable components. Vacay UI is publicly hosted on Netlify at https://vacay-ui.netlify.app/.
+Vacay UI is a CSS library to easily build beautiful UI for websites and apps. It consists of fully customisable components. Vacay UI is publicly hosted on Netlify at https://vacay-ui.netlify.app/.
 ## Demo
 ![demo](https://user-images.githubusercontent.com/56336326/154965236-d15d888c-cb26-48eb-b7f6-0fcefa7a78cf.png)
 
